@@ -1,0 +1,30 @@
+/* 整体页面布局 */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans;
+}
+li{
+    list-style: none;
+}
+body{
+    width: auto;
+}
+#head{
+    height: 48px;
+    background-color: #806d9e;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+.inner{
+    margin: 0 auto;
+    display: flex;
+}
+#footer{
+    height: 100px;
+    
+}
+face{
+    font-family: sans;
+    src: url(../style/HarmonyOS_Sans_SC_Regular.ttf);
+}

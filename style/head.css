@@ -1,0 +1,20 @@
+#logo{
+    display: flex;
+    width: 300px;
+    margin-left: 10px;
+}
+#logo img{
+    float: left;
+    height: 45px;
+}
+#logo h2{
+    float: left;
+    margin: 6px 5px 0;
+}
+#head ul{
+    font-size: 20px;
+    display: flex;
+}
+#head ul li{
+    margin: 10px 20px;
+}

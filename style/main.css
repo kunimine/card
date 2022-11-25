@@ -1,0 +1,24 @@
+
+a{
+    text-decoration: none;
+    color: black;
+}
+body{
+    background-color: #806d9e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#header{
+    padding: 1px;
+    height: 50px;
+    display: inline;
+    font-size: 18px;
+    
+}
+
+#header .nav ul li{
+    left: 20px;
+    list-style-type: none;
+    display: inline;
+}
