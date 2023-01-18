@@ -1,20 +1,29 @@
-v0.2使用vue进行开发
+# KvueResume
 
+This template should help get you started developing with Vue 3 in Vite.
 
-历史版本
-1.0.7
-新增必应翻译，并设置为默认翻译服务。
+## Recommended IDE Setup
 
-1.0.6
-因谷歌关闭国内翻译服务、增加DeepL翻译替代默认的谷歌翻译，但也受诸多因素影响不太稳定 建议配置国内翻译厂商。 依然保留谷歌翻译选项，对做本地hosts映射的用户提供服务。
+[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
 
-1.0.5
-一些交互与文档优化。
+## Customize configuration
 
-1.0.4
-增加自然语言翻译为中文。
+See [Vite Configuration Reference](https://vitejs.dev/config/).
 
-......
+## Project Setup
 
-1.0.0
-var-translate-en的初始化版本
+```sh
+npm install
+```
+
+### Compile and Hot-Reload for Development
+
+```sh
+npm run dev
+```
+
+### Compile and Minify for Production
+
+```sh
+npm run build
+```
