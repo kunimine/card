@@ -1,11 +1,22 @@
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
-import TheWelcome from './components/TheWelcome.vue'
+import HelloWorld from "./components/HelloWorld.vue";
+import TheWelcome from "./components/TheWelcome.vue";
 </script>
 
 <template>
+  <el-container>
+    <el-header>Header</el-header>
+    <el-main>Main</el-main>
+    <el-footer>Footer</el-footer>
+  </el-container>
   <header>
-    <img alt="H.N.E-KU logo" class="logo" src="./assets/Sprite-0001.svg" width="125" height="125" />
+    <img
+      alt="H.N.E-KU logo"
+      class="logo"
+      src="./assets/Sprite-0001.svg"
+      width="125"
+      height="125"
+    />
 
     <div class="wrapper">
       <HelloWorld msg="You did it!" />
